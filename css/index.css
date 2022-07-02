@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+}
+
+.header {
+    background-color: lightblue;
+    height: 60px;
+    width: 100%;
+}
+
+.logo {
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.botones {
+    display: grid;
+    justify-items: center;
+    padding-top: 15em;
+}
+
+.botones button {
+    padding: 12px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.boton-1 {
+    background-color: #0A3871;
+    color: white;
+    font-weight: bold;
+    height: 70px;
+}
+
+.boton-2 {
+    background-color: #F3F5FC;
+    border-bottom: solid #0A3871;
+    color: #0A3871;
+}
+
+.footer {
+    background: lightblue;
+    height: 100px;
+    width: 100%;
+    padding: 0px 50px;
+    color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+}
+
+.footer-copyright {
+    position: relative;
+    padding: 35px;
+}
