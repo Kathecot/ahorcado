@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/index.css">
     <title>Juego del Ahorcado</title>
 </head>
@@ -12,11 +14,14 @@
         <img src="imagenes/Vector.png" class="logo" alt="logo">
     </header>
     <main>
-        <div class="botones">
-            <button class="boton-1">Iniciar Juego</button>
-            <button class="boton-2">Agregar nueva palabra</button>
+        <!-- <div class="botones">
+            <button id="iniciar-juego" class="boton-1">Iniciar Juego</button>
+            <button id="agregar-palabra" class="boton-2">Agregar nueva palabra</button>
+        </div> -->
+        <div class="div-aparece-ahorcado" class="canvas">
+            <canvas id="horca" height="860px" width="1200"></canvas>
+            <div class="subrayado"></div>
         </div>
-
     </main>
     <footer>
         <div class="footer">
@@ -26,6 +31,9 @@
         </div>
 
     </footer>
+    <!-- <script src="js/iniciarjuego.js"></script>
+    <script src="js/agregarPalabra.js"></script> -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
