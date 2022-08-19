@@ -41,9 +41,9 @@
 
 .footer {
     background: lightblue;
-    height: 90px;
+    height: 60px;
     width: 100%;
-    padding: 0px 50px;
+    padding: 0px 40px;
     color: rgba(0, 0, 0, 0.3);
     position: fixed;
     bottom: 0;
@@ -51,5 +51,5 @@
 
 .footer-copyright {
     position: relative;
-    padding: 35px;
+    padding: 23px;
 }

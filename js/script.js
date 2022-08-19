@@ -1,4 +1,4 @@
-var palabras = ['ALURA', 'AHORCADO', 'ORACLE', 'HTML', 'CSS', 'JAVASCRIPT'];
+var palabras = ['ALURA', 'AHORCADO', 'ORACLE', 'HTML', 'CSS', 'JAVASCRIPT', 'FRONTEND', 'BACKEND', 'FULLSTACK'];
 var tablero = document.getElementById('horca').getContext('2d');
 var letras = [];
 var palabraCorrecta = "";
@@ -84,4 +84,15 @@ document.onkeydown = (e) => {
             escribirLetraIncorrecta(letra, errores)
         }
     }
+}
+
+function dibujarahorcado() {
+    tablero.beginPath();
+    tablero.fillStyle = '#0077aa';
+    tablero.strokeStyle = '#0077aa47';
+    tablero.lineWidth = 2;
+
+    tablero.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+    tablero.fill();
+    tablero.stroke();
 }
